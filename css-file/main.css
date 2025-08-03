@@ -1,0 +1,31 @@
+#middle {
+    background-image: url("/images/background1.jpg");
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 0 80px;
+
+}
+#middle h3{
+    color:bisque;
+}
+
+#middle h2{
+    color:rgb(241, 229, 120);
+}
+#middle button{
+    /* background-image: url("/images/button.png"); */
+    /* background-size: cover; */
+    background-color:burlywood;
+    border-radius: 16px;
+    color: #088187;
+    cursor: pointer;
+     border: 0; 
+    padding: 14px 80px 14px 65px;
+     background-repeat: no-repeat;
+    font-size: 15px;
+    font-weight: 700;  
+}
