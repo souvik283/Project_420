@@ -31,26 +31,30 @@
 }
 
 #container{
-    margin: 5px 20px;
+    margin: 25px 10px;
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 
 #container .content-box{
     width: 180px;
+    height: 200px ;
     text-align: center;
-    padding: 25px 15px ;
-    box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.4);
+    padding: 5px 15px ;
+    box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.09);
     border: 1px solid #cce7d0;
     border-radius: 5px;
-    margin: 15px 0;
+    margin: 5px 20px;
+    cursor: pointer;
 } 
 #container .content-box:hover{
     box-shadow: 10px 10px 54px rgba(0, 0, 0, 0.4);
 
 }
 .content-box h6{
-    padding: 9px 8px;
+    padding:  0;
     font-size: 20px;
     background-color: rgba(70, 62, 221, 0.1);
     border-radius: 6px;
