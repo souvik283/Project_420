@@ -69,6 +69,8 @@ body {
     background-color: #E3E6F3;
     align-items: center;
     justify-content: center;
+    border: 1px solid #d1d8f7;
+    border-radius: 5px;
 
 }
 
