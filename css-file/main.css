@@ -9,69 +9,95 @@
     padding: 0 80px;
 
 }
-#middle h3{
-    color:bisque;
+
+#middle h3 {
+    color: bisque;
 }
 
-#middle h2{
-    color:rgb(241, 229, 120);
+#middle h2 {
+    color: rgb(241, 229, 120);
 }
-#middle button{
+
+#middle button {
     /* background-image: url("/images/button.png"); */
     /* background-size: cover; */
-    background-color:burlywood;
+    background-color: burlywood;
     border-radius: 16px;
     color: #088187;
     cursor: pointer;
-     border: 0; 
+    border: 0;
     padding: 14px 80px 14px 65px;
-     background-repeat: no-repeat;
+    background-repeat: no-repeat;
     font-size: 15px;
-    font-weight: 700;  
+    font-weight: 700;
 }
 
-#container{
+#container {
     margin: 25px 50px;
     display: flex;
     flex-wrap: wrap;
-    justify-content:center;
+    justify-content: center;
     align-items: center;
 }
 
-#container .content-box{
+#container .content-box {
     width: 140px;
-    height: 194px ;
+    height: 194px;
     text-align: center;
-    padding: 5px 15px ;
+    padding: 5px 15px;
     box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.09);
     border: 1px solid #cce7d0;
     border-radius: 5px;
     margin: 5px 20px;
     cursor: pointer;
-} 
-#container .content-box:hover{
+}
+
+#container .content-box:hover {
     box-shadow: 10px 10px 54px rgba(0, 0, 0, 0.4);
 
 }
-.content-box h6{
+
+.content-box h6 {
     display: inline-block;
     margin: 23px 0;
-    padding:  3px 9px;
+    padding: 3px 9px;
     font-size: 20px;
-    background-color:#fddde4;
+    background-color: #fddde4;
     border-radius: 6px;
-    border:1px solid rgb(239, 176, 176);
+    border: 1px solid rgb(239, 176, 176);
 }
 
-.content-box:nth-child(2) h6{
+.content-box:nth-child(2) h6 {
     background-color: #addee1;
 }
-.content-box:nth-child(3) h6{
+
+.content-box:nth-child(3) h6 {
     background-color: #cde1ad;
 }
-.content-box:nth-child(4) h6{
+
+.content-box:nth-child(4) h6 {
     background-color: #f9d6f6;
 }
-.content-box:nth-child(5) h6{
+
+.content-box:nth-child(5) h6 {
     background-color: #fadac3;
+}
+
+#top-items .products{
+    display: flex;
+    flex-direction: column;
+    width: 180px;
+    background-color: #addee1;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 40px;
+    border-radius: 19px;
+
+}
+
+#top-items .products img{
+    height: 160px;
+    width: 120px;
+    border-radius: 25px;
+    margin: 10px 0;
 }
