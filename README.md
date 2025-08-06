@@ -17,5 +17,18 @@ A modern, responsive ecommerce website built using HTML, CSS, and JavaScript. Th
 - **Backend**: (Coming soon) Node.js, Express.js
 - **Database**: (Planned) MongoDB or MySQL
 
-## 📁 Folder Structure
 
+## 📦 Planned Features
+
+- User login and signup
+- Admin dashboard to manage products
+- Payment gateway integration
+- Order history and tracking
+- Backend APIs using Node.js
+
+## 🧠 Learning Goals
+
+- Improve frontend development skills
+- Learn backend development using Node.js
+- Understand full-stack development lifecycle
+- Explore REST API and database integration
