@@ -83,6 +83,18 @@
     background-color: #fadac3;
 }
 
+#top-items{
+    align-items: center;
+    justify-content: center;
+}
+#top-items p{
+    justify-content: center;
+    display:flex;
+    font-size: 20px;
+    font-weight: 600;
+
+}
+
 #top-items .products{
     display: flex;
     flex-direction: column;
