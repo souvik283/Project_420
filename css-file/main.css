@@ -83,7 +83,8 @@
     background-color: #fadac3;
 }
 
-#top-items {
+#top-items,
+#new-arrivals .new-items-container{
     display: flex;
     flex-wrap: wrap;
     text-align: center;
@@ -101,7 +102,8 @@
 
 }
 
-#top-items .products {
+#top-items .products,
+#new-arrivals .products {
     width: 180px;
     background-color: #eff0f0;
     justify-content: center;
@@ -115,11 +117,13 @@
     transition: 0.2s ease;
 }
 
-#top-items .products:hover {
+#top-items .products:hover,
+#new-arrivals .products:hover {
     box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.15);
 }
 
-#top-items .products img {
+#top-items .products img,
+#new-arrivals .products img {
     height: 190px;
     width: 150px;
     border-radius: 25px;
@@ -170,7 +174,8 @@
 
 }
 
-#top-items .products .cart2 {
+#top-items .products .cart2,
+#new-arrivals .new-items-container .products .cart2{
     height: 40px;
     width: 40px;
     line-height: 40px;
@@ -225,4 +230,26 @@
 #service button:hover{
     background-color: #088187;
     color: #fff;
+}
+#new-arrivals .paragraph{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;   
+}
+#new-arrivals .paragraph h4{
+    margin: 0;
+    margin-top: 45px;
+    font-size: 49px;
+    font-weight: 700;
+    font-family: 'Times New Roman', Times, serif;
+}
+#new-arrivals .paragraph h6{
+    margin-bottom: 12px;
+    color: #bababa;
+    font-weight: 600;
+    margin-top: 7px;
+    font-size: 17px;
 }
