@@ -13,6 +13,7 @@ body {
     background: #E3E6F3;
     padding: 3px 30px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.09);
+    z-index: 1;
 }
 
 #navbar {
