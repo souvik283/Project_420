@@ -253,3 +253,18 @@
     margin-top: 7px;
     font-size: 17px;
 }
+
+#deals{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+#deals .buy-get,
+#deals .upcomming{
+    height: 200px;
+    margin: 20px 20px;
+    background-image: url(/images/sh1.jpeg);
+    background-size: cover;
+    width: 37%;
+ 
+}
