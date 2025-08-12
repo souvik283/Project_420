@@ -84,11 +84,15 @@
 }
 
 #top-items {
+    display: flex;
+    flex-wrap: wrap;
     text-align: center;
-    justify-content: center;
+    justify-content: space-around;
+    padding: 0 20px;
+
 }
 
-#top-items p {
+#top-para {
     justify-content: center;
     display: flex;
     font-size: 20px;
@@ -101,7 +105,7 @@
     background-color: #eff0f0;
     justify-content: center;
     align-items: center;
-    margin: 20px 40px;
+    margin: 20px 20px;
     border-radius: 19px;
     padding: 12px 0;
     cursor: pointer;
@@ -115,19 +119,22 @@
 }
 
 #top-items .products img {
-    height: 160px;
-    width: 120px;
+    height: 190px;
+    width: 150px;
     border-radius: 25px;
-    margin-top: 10px;
+
 }
-.products{
+
+.products {
     position: relative;
 }
-.des{
+
+.des {
     text-align: start;
-   margin-top: 15px;
-   margin-left: 12px;
+    margin-top: 15px;
+    margin-left: 12px;
 }
+
 .des h4 {
     margin: 0;
     margin-top: 8px;
@@ -136,6 +143,7 @@
     color: #595959;
 
 }
+
 .des h6 {
     margin: 0;
     margin-top: 15px;
@@ -143,21 +151,25 @@
     font-weight: 900;
     color: black;
 }
-.des i{
+
+.des i {
     margin-top: 15px;
     font-size: 14px;
     font-weight: 800;
     color: rgb(243, 181, 25);
 
 }
+
 .des h5 {
+    margin-bottom: 0;
     margin-top: 15px;
     font-size: 20px;
     font-weight: 900;
     color: #088187;
 
 }
-#top-items .products .cart2{
+
+#top-items .products .cart2 {
     height: 40px;
     width: 40px;
     line-height: 40px;
@@ -165,6 +177,6 @@
     background-color: #e8f6ea;
     color: #088187;
     position: absolute;
-    bottom: 30px;
+    bottom: 6px;
     right: 12px;
 }
