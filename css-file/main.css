@@ -332,12 +332,14 @@
     margin-bottom: 40px;
 
 }
-#deals .next h2{
+
+#deals .next h2 {
     margin: 8px 30px;
-        color: #fbf9f9;
-        font-weight: 600;
+    color: #fbf9f9;
+    font-weight: 600;
 }
-#deals .next h4{
+
+#deals .next h4 {
     margin: 8px 30px;
     color: rgb(102, 251, 231);
 }
@@ -355,4 +357,61 @@
 #deals .bar3 {
     background-image: url(/images/sh5.jpeg);
     width: 25vw;
+}
+
+#newsletter {
+    display: flex;
+    background-image: url(/images/newsletter.jpg);
+    background-size: cover;
+    height: 140px;
+    align-items: center;
+    position: relative;
+}
+
+#newsletter .text {
+    margin-left: 77px;
+}
+
+#newsletter .text h4 {
+    font-size: 24px;
+    font-weight: 700;
+    margin: 10px 0;
+}
+
+#newsletter .text p {
+    font-size: 16px;
+    font-weight: 600;
+    color: #454545;
+}
+#newsletter .text p span{
+    color: #088187;
+}
+#newsletter .signup {
+    display: flex;
+    position: absolute;
+    right: 77px;
+}
+#newsletter .signup input{
+    height: 35px;
+    width: 300px;
+    padding: 0 1.25em;
+    border: none;
+    border-radius: 4px;
+    font-size: 15px;
+    font-weight: 500;
+    color: rgb(125, 125, 125);
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+#newsletter .signup button{
+    width: 80px;
+    border: none;
+    border-radius: 4px;
+    background-color: #088187;
+    font-size: 14px;
+    font-weight: 540;
+    color: white;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    cursor: pointer;
 }
