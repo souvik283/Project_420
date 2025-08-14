@@ -66,12 +66,60 @@ body {
     width: 50px;
 }
 
-#footer {
+#footer-section{
+    background-image: url(/images/footer1.jpg);
+    background-size: cover;
+    margin-top: 5px;
+    padding-top: 70px;
+    padding-bottom: 5px;
+}
+#footer-section #column1 img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+}
+#footer-section .footer-content{
     display: flex;
-    background-color: #E3E6F3;
-    align-items: center;
-    justify-content: center;
-    border: 1px solid #d1d8f7;
-    border-radius: 5px;
-
+    justify-content: space-around;
+}
+#footer-section .footer-last{
+    text-align: center;
+}
+#footer-section .footer-last p{
+    color: #393939;
+    margin-bottom: 5px;
+    font-weight: 600;
+}
+#footer-section .footer-content a{
+    text-decoration: none;
+}
+#footer-section .col h3{
+    color: #141414;
+    font-weight: bold;
+    font-family:'Times New Roman', Times, serif;
+}
+#footer-section .col p,
+#footer-section .col a {
+    color: #393939;
+    font-weight: 540;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#footer-section .col a:hover{
+    color: #086a2f;
+}
+#footer-section .col p span{
+    color: #3a3a3a;
+    font-weight: bold;
+}
+#footer-section .fa-facebook:hover {
+    color: rgb(49, 145, 242);
+}
+#footer-section .fa-instagram:hover{
+    color: #ed294d;
+}
+#footer-section .fa-whatsapp:hover{
+    color: #54f561;
+}
+#footer-section .fa-x-twitter:hover {
+    color: #0b0b0b;
 }

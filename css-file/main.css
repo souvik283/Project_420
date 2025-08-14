@@ -318,7 +318,10 @@
 #deals .buy-get button:hover,
 #deals .upcomming button:hover {
     transition: 0.7s ease;
-    background-color: #088187;
+    border: none;
+    border-radius: 4px;
+    /* background-color: #088187; */
+    box-shadow: 1px 2px 5px #272727;
 }
 
 #deals .next {
@@ -414,4 +417,7 @@
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
     cursor: pointer;
+}
+#newsletter .signup button:hover{
+    box-shadow: 1px 3px 9px #272727;
 }
