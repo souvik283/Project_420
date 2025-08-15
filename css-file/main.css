@@ -24,7 +24,8 @@
     padding: 0;
     margin: 0;
 }
-#middle p{
+
+#middle p {
     margin-bottom: 37px;
     font-size: 19px;
     font-weight: 500;
@@ -43,7 +44,7 @@
     font-weight: 700;
 }
 
-#middle button:hover{
+#middle button:hover {
     border: none;
     box-shadow: 1px 4px 8px rgba(26, 26, 26, 0.3);
 }
@@ -203,10 +204,15 @@
     right: 12px;
 }
 
+#top-items .products .cart2:hover,
+#new-arrivals .new-items-container .products .cart2:hover {
+    background-color: #d2f6d7;
+}
+
 #service {
     background-image: url(/images/service.png);
     background-size: cover;
-    height: 32vh;
+    height: 190px;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -452,8 +458,62 @@
         padding: 0;
         align-items: center;
     }
+
     #middle button {
-    padding: 8px 20px;
-    color: #151515;
-}
+        padding: 8px 20px;
+        color: #151515;
+    }
+
+    #container {
+        margin: 25px 5px;
+        justify-content: space-around;
+    }
+
+    #container .content-box {
+        width: 140px;
+        height: 194px;
+        padding: 5px 11px;
+        margin: 10px 5px;
+    }
+
+    .content-box h6 {
+        padding: 5px 18px;
+        font-size: 16px;
+    }
+
+    #top-items,
+    #new-arrivals .new-items-container {
+        padding: 0 5px;
+        margin-bottom: 30px;
+
+    }
+
+    #top-items .products,
+    #new-arrivals .products {
+        width: 155px;
+        justify-content: center;
+        align-items: center;
+        margin: 8px 10px;
+        padding: 12px 0;
+    }
+
+    #top-items .products img,
+    #new-arrivals .products img {
+        height: 150px;
+        width: 120px;
+    }
+
+    #service {
+        height: 150px;
+    }
+
+    #service h4 {
+        font-size: 18px;
+        font-weight: 600;
+    }
+
+    #service button {
+        padding: 6px 15px;
+
+    }
 }
