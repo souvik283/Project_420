@@ -7,7 +7,6 @@
     align-items: flex-start;
     justify-content: center;
     padding: 0 80px;
-
 }
 
 #middle h3 {
@@ -386,15 +385,18 @@
     font-weight: 600;
     color: #454545;
 }
-#newsletter .text p span{
+
+#newsletter .text p span {
     color: #088187;
 }
+
 #newsletter .signup {
     display: flex;
     position: absolute;
     right: 77px;
 }
-#newsletter .signup input{
+
+#newsletter .signup input {
     height: 35px;
     width: 300px;
     padding: 0 1.25em;
@@ -406,7 +408,8 @@
     border-top-right-radius: 0;
     border-bottom-right-radius: 0;
 }
-#newsletter .signup button{
+
+#newsletter .signup button {
     width: 80px;
     border: none;
     border-radius: 4px;
@@ -418,6 +421,7 @@
     border-bottom-left-radius: 0;
     cursor: pointer;
 }
-#newsletter .signup button:hover{
+
+#newsletter .signup button:hover {
     box-shadow: 1px 3px 9px #272727;
 }
