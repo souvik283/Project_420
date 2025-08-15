@@ -162,6 +162,7 @@ body {
     justify-content: flex-start;
     position: fixed;
     padding: 0;
+    padding-top: 15px;
     top: 60.35px;
     right: -300px;
     height: 100%;
@@ -171,11 +172,16 @@ body {
     border: none;
     border-radius: 9px;
     border-top-right-radius: 0;
-    box-shadow: 0 40px 60px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 40px 60px rgba(0, 0, 0, 0.5);
+    transition: 0.4s;
 }
 #navbar li{
     margin-bottom: 10px;
     margin-left: 8px;
+}
+#header #wishlist,
+#header #my-cart{
+    display: none;
 }
 #header #mobile{
     display: flex;
