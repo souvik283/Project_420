@@ -455,8 +455,8 @@
     #middle {
         height: 70vh;
         background-position: top 20% right 20%;
-        padding: 0;
-        align-items: center;
+        padding-left: 40px;
+        align-items: flex-start;
     }
 
     #middle button {
@@ -493,7 +493,7 @@
         width: 155px;
         justify-content: center;
         align-items: center;
-        margin: 8px 10px;
+        margin: 8px 9px;
         padding: 12px 0;
     }
 
@@ -515,5 +515,127 @@
     #service button {
         padding: 6px 15px;
 
+    }
+
+    #deals {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    #deals .box-container {
+        justify-content: center;
+    }
+
+    #deals .buy-get,
+    #deals .upcomming {
+        height: 200px;
+        margin: 5px 12px;
+        width: 65vw;
+        align-content: center;
+        padding: 0 50px;
+    }
+
+    #deals .buy-get h3,
+    #deals .upcomming h3 {
+        font-size: 25px;
+    }
+
+    #deals .next {
+        margin: 10px 11px;
+        height: 140px;
+        margin-bottom: 40px;
+    }
+
+    #deals .next h2 {
+        margin: 8px 15px;
+        font-size: 20px;
+        font-weight: 500;
+    }
+
+    #deals .next h4 {
+        margin: 8px 15px;
+        font-size: 14px;
+    }
+
+    #deals .bar1 {
+        width: 25vw;
+    }
+
+    #deals .bar2 {
+        width: 28vw;
+    }
+
+    #deals .bar3 {
+        width: 23vw;
+    }
+
+    #newsletter {
+        background-position: right 90%;
+        height: 140px;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    #newsletter .signup {
+        position: static;
+    }
+
+    #newsletter .text {
+        margin-left: 0px;
+        text-align: center;
+    }
+
+    #newsletter .signup input {
+        height: 26px;
+        width: 220px;
+        padding: 0 1.25em;
+        font-size: 13px;
+
+    }
+
+    #newsletter .signup button {
+        width: 60px;
+        font-size: 12px;
+    }
+}
+
+
+@media (max-width:499px) {
+    #middle {
+        height: 70vh;
+        background-position: top 20% right 20%;
+        padding: 0 2px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #deals .next {
+        margin: 10px 6px;
+        height: 140px;
+        margin-bottom: 0;
+    }
+
+    #deals .bar1 {
+        width: 42vw;
+    }
+
+    #deals .bar2 {
+        width: 47vw;
+    }
+
+    #deals .bar3 {
+        padding-left: 45px;
+        width: 80vw;
+        margin-bottom: 30px;
+    }
+
+    #newsletter {
+        background-position: right 90%;
+        height: 170px;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
     }
 }

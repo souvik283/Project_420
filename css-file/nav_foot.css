@@ -151,6 +151,10 @@ body {
     color: #0b0b0b;
 }
 
+.active2{
+    right: 0 !important;
+}
+
 /* make responsive */
 
 @media (max-width:799px){
@@ -186,7 +190,4 @@ body {
 #header #mobile{
     display: flex;
 }
-}
-.active2{
-    right: 0 !important;
 }
