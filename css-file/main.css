@@ -50,7 +50,7 @@
 }
 
 #container {
-    margin: 25px 50px;
+    margin: 25px 5px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -65,7 +65,7 @@
     box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.09);
     border: 1px solid #cce7d0;
     border-radius: 5px;
-    margin: 5px 20px;
+    margin: 5px 12px;
     cursor: pointer;
 }
 
@@ -106,7 +106,7 @@
     flex-wrap: wrap;
     text-align: center;
     justify-content: space-around;
-    padding: 0 20px;
+    margin: 0 5px;
     margin-bottom: 30px;
 
 }
@@ -125,8 +125,8 @@
     background-color: #eff0f0;
     justify-content: center;
     align-items: center;
-    margin: 20px 20px;
-    border-radius: 19px;
+    margin: 20px 0px;
+    border-radius: 14px;
     padding: 12px 0;
     cursor: pointer;
     border: 1px solid #cfcfcf;
@@ -292,16 +292,23 @@
 }
 
 #deals .box-container {
+    width: 88vw;
     display: flex;
     flex-wrap: wrap;
+}
+#deals .box-container1{
+    justify-content: space-between;
+}
+#deals .box-container2 {
+    justify-content: space-between;
 }
 
 #deals .buy-get,
 #deals .upcomming {
     height: 230px;
-    margin: 20px 12px;
+    margin: 20px 0px;
     background-size: cover;
-    width: 34vw;
+    width: 33vw;
     align-content: center;
     padding: 0 50px;
 }
@@ -352,7 +359,7 @@
     justify-content: center;
     align-items: flex-start;
     background-size: cover;
-    margin: 10px 14px;
+    margin: 10px 0px;
     height: 160px;
     margin-bottom: 40px;
 
@@ -371,17 +378,17 @@
 
 #deals .bar1 {
     background-image: url(/images/sh3.jpeg);
-    width: 27vw;
+    width: 28vw;
 }
 
 #deals .bar2 {
-    width: 30vw;
+    width: 31vw;
     background-image: url(/images/sh4.jpeg);
 }
 
 #deals .bar3 {
     background-image: url(/images/sh5.jpeg);
-    width: 25vw;
+    width: 26vw;
 }
 
 #newsletter {
@@ -485,6 +492,7 @@
     #new-arrivals .new-items-container {
         padding: 0 5px;
         margin-bottom: 30px;
+        justify-content: center;
 
     }
 
@@ -493,7 +501,7 @@
         width: 155px;
         justify-content: center;
         align-items: center;
-        margin: 8px 9px;
+        margin: 8px 8px;
         padding: 12px 0;
     }
 
@@ -530,19 +538,31 @@
     #deals .buy-get,
     #deals .upcomming {
         height: 200px;
-        margin: 5px 12px;
-        width: 65vw;
+        margin: 5px 0px;
+        width: 100%;
         align-content: center;
-        padding: 0 50px;
+        padding-left:  50px;
     }
+        #deals .upcomming{
+            background-position: top 30% left 0;
+        }
 
     #deals .buy-get h3,
     #deals .upcomming h3 {
         font-size: 25px;
     }
+    #deals .box-container {
+    width: 90vw;
+}
+#deals .box-container1{
+    justify-content: space-around;
+}
+#deals .box-container2{
+    justify-content: space-between;
+}
 
     #deals .next {
-        margin: 10px 11px;
+        margin: 10px 0;
         height: 140px;
         margin-bottom: 40px;
     }
@@ -559,15 +579,15 @@
     }
 
     #deals .bar1 {
-        width: 25vw;
+        width: 27vw;
     }
 
     #deals .bar2 {
-        width: 28vw;
+        width: 30vw;
     }
 
     #deals .bar3 {
-        width: 23vw;
+        width: 25vw;
     }
 
     #newsletter {
@@ -611,18 +631,55 @@
         align-items: center;
     }
 
+    #top-items,
+    #new-arrivals .new-items-container {
+        justify-content: space-around;
+        padding: 0 5px;
+        margin-bottom: 30px;
+
+    }
+
+    #top-items .products,
+    #new-arrivals .products {
+        width: 44vw;
+        justify-content: center;
+        align-items: center;
+        margin: 8px 4px;
+        padding: 12px 0;
+    }
+
+    #top-items .products img,
+    #new-arrivals .products img {
+        height: 45vw;
+        width: 35vw;
+    }
+    
+    #deals .buy-get,
+    #deals .upcomming {
+        margin: 5px 0;
+        width: 65vw;
+    }
+#deals .box-container {
+    width: 88vw;
+}
+#deals .box-container1{
+    justify-content: space-around;
+}
+#deals .box-container2{
+    justify-content: space-between;
+}
     #deals .next {
-        margin: 10px 6px;
+        margin: 10px 0;
         height: 140px;
         margin-bottom: 0;
     }
 
     #deals .bar1 {
-        width: 42vw;
+        width: 40vw;
     }
 
     #deals .bar2 {
-        width: 47vw;
+        width: 45vw;
     }
 
     #deals .bar3 {
