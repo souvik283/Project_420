@@ -1,0 +1,25 @@
+#hero{
+    display: flex;
+    margin: 0;
+    background-image: url(/images/shop-page2.jpg);
+    background-size: cover;
+    height: 32vh;
+    width: 100%;
+    background-position: top 20% left 0;
+    justify-content: center;
+    align-items: center;
+}
+#hero .container{
+    text-align: center;
+}
+#hero .container h2{
+    color: rgb(247, 224, 224);
+    margin: 10px 0;
+    font-size: 30px;
+    font-weight: 600;
+}
+#hero .container h5{
+        margin: 15px 0;
+    color: rgb(237, 237, 237);
+    font-size: 16px;
+}
