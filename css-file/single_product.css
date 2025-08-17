@@ -1,0 +1,28 @@
+#products{
+    width: 65vw;
+    height: 90vh;
+}
+#products .product-images{
+    display: flex;
+    flex-direction: column;
+    background-color: antiquewhite;
+}
+#products .product-images .main-image{
+    display: flex;
+    margin: 12px 10px;
+}
+#products .product-images .main-image img{
+    height: 70vh;
+    width: 45vw;
+}
+#products .product-images .side-image{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+#products .product-images .side-image img{
+    height: 20vh;
+}
+#products .details{
+    background-color: aquamarinemg;
+}
