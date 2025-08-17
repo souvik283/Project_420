@@ -9,6 +9,12 @@
     justify-content: center;
     align-items: center;
 }
+#top-items{
+    margin-bottom: 22px;
+}
+#top-items .products{
+    margin-bottom: 0;
+}
 #hero .container{
     text-align: center;
 }
@@ -22,4 +28,25 @@
         margin: 15px 0;
     color: rgb(237, 237, 237);
     font-size: 16px;
+}
+#page-change{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    margin-bottom: 20px;
+}
+#page-change a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 8px 13px;
+    border-radius: 3px;
+    background-color: #088178;
+    color: azure;
+    margin: 0 3px;
+
+}
+#page-change a:hover{
+    box-shadow: 2px 2px 5px black;
 }
