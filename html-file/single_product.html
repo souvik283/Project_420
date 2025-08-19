@@ -20,7 +20,7 @@
         <div>
             <ul id="navbar">
                 <li><a href="/main.html">Home</a></li>
-                <li><a class="active" href="/html-file/shop.html">Shop</a></li>
+                <li><a href="/html-file/shop.html">Shop</a></li>
                 <li><a href="">Account</a></li>
                 <li><a href="/html-file/about.html">About</a></li>
                 <li><a href="/html-file/contact.html">Contact</a></li>
@@ -37,19 +37,19 @@
 
     <section id="products">
         <div class="product-images">
-            <div class="main-image" >
-            <img src="/images/shirt1.jpeg" alt="product image">
+            <div class="main-image">
+                <img id="main-img" src="/images/shirt1.jpeg" alt="product image">
             </div>
             <div class="side-image">
-            <img  src="/images/shirt1.jpeg" alt="product image">
-            <img  src="/images/shirt1.jpeg" alt="product image">
-            <img  src="/images/shirt1.jpeg" alt="product image">
-            <img  src="/images/shirt1.jpeg" alt="product image">
+                <img onclick="changeImg(src)" src="/images/shirt1.jpeg" alt="product image">
+                <img onclick="changeImg(src)" src="/images/shirt2.jpeg" alt="product image">
+                <img onclick="changeImg(src)" src="/images/shirt3.jpeg" alt="product image">
+                <img onclick="changeImg(src)" src="/images/shirt4.jpeg" alt="product image">
             </div>
         </div>
         <div class="details">
-            <p>Home/T-Shirt</p>
-            <h4>Men's Fashion T Shirt</h4>
+            <h5>Home/T-Shirt</h5>
+            <h4>Half Sleve T-Shirt</h4>
             <h3>$56.00</h3>
             <select>
                 <option>Select Size</option>
@@ -60,12 +60,18 @@
                 <option>XXL</option>
                 <option>XXXL</option>
             </select>
-            <input type="number">
-            <button>Add To Cart</button>
-
+            <span>
+                <input type="number" value="1">
+                <button>Add To Cart</button>
+            </span>
+            <h4>Product Details</h4>
             <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis adipisci voluptate maiores placeat vitae blanditiis dolorum dignissimos maxime nesciunt, repellat nemo saepe ut, dicta quo necessitatibus quam? Ducimus, sed molestias!
-                Non doloremque quisquam, rem, dolorum animi sequi rerum sapiente accusantium, debitis esse ratione maiores ab saepe voluptates iste facere cupiditate exercitationem culpa! Quos reiciendis ullam, nostrum molestiae dolores dicta doloribus.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis adipisci voluptate maiores placeat
+                vitae blanditiis dolorum dignissimos maxime nesciunt, repellat nemo saepe ut, dicta quo necessitatibus
+                quam? Ducimus, sed molestias!
+                Non doloremque quisquam, rem, dolorum animi sequi rerum sapiente accusantium, debitis esse ratione
+                maiores ab saepe voluptates iste facere cupiditate exercitationem culpa! Quos reiciendis ullam, nostrum
+                molestiae dolores dicta doloribus.
             </p>
         </div>
     </section>
@@ -193,7 +199,7 @@
             <div id="column4" class="col">
                 <h3>Install App</h3>
                 <p>From Play Store</p>
-                <a href=""><img src="images/play.jpg" alt="Google Play"></a>
+                <a href=""><img src="/images/play.jpg" alt="Google Play"></a>
                 <p>Secured Payment Gateways</p>
                 <img src="/images/pay.png" alt="Google Pay or PhonePe">
             </div>
@@ -206,6 +212,7 @@
 
     <script src="https://kit.fontawesome.com/58cd1ba0fe.js" crossorigin="anonymous"></script>
     <script src="/js-file/nav_foot.js"></script>
+    <script src="/js-file/single_product.js"></script>
 </body>
 
 </html>
