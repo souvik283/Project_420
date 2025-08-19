@@ -296,9 +296,11 @@
     display: flex;
     flex-wrap: wrap;
 }
-#deals .box-container1{
+
+#deals .box-container1 {
     justify-content: space-between;
 }
+
 #deals .box-container2 {
     justify-content: space-between;
 }
@@ -541,25 +543,29 @@
         margin: 5px 0px;
         width: 100%;
         align-content: center;
-        padding-left:  50px;
+        padding-left: 50px;
     }
-        #deals .upcomming{
-            background-position: top 30% left 0;
-        }
+
+    #deals .upcomming {
+        background-position: top 30% left 0;
+    }
 
     #deals .buy-get h3,
     #deals .upcomming h3 {
         font-size: 25px;
     }
+
     #deals .box-container {
-    width: 90vw;
-}
-#deals .box-container1{
-    justify-content: space-around;
-}
-#deals .box-container2{
-    justify-content: space-between;
-}
+        width: 90vw;
+    }
+
+    #deals .box-container1 {
+        justify-content: space-around;
+    }
+
+    #deals .box-container2 {
+        justify-content: space-between;
+    }
 
     #deals .next {
         margin: 10px 0;
@@ -653,21 +659,25 @@
         height: 45vw;
         width: 35vw;
     }
-    
+
     #deals .buy-get,
     #deals .upcomming {
         margin: 5px 0;
         width: 65vw;
     }
-#deals .box-container {
-    width: 88vw;
-}
-#deals .box-container1{
-    justify-content: space-around;
-}
-#deals .box-container2{
-    justify-content: space-between;
-}
+
+    #deals .box-container {
+        width: 88vw;
+    }
+
+    #deals .box-container1 {
+        justify-content: space-around;
+    }
+
+    #deals .box-container2 {
+        justify-content: space-between;
+    }
+
     #deals .next {
         margin: 10px 0;
         height: 140px;

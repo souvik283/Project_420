@@ -159,11 +159,11 @@
 
 @media (max-width:499px) {
 
-    #products{
+    #products {
         margin-top: 18px;
     }
 
-        #products .product-images {
+    #products .product-images {
         width: 100vw;
         margin-left: 0;
     }
@@ -181,16 +181,19 @@
         height: 12vh;
         width: 20vw;
     }
-       #products .details {
+
+    #products .details {
         width: 87vw;
         margin-left: 7.5vw;
-       }
-         #products .details h5 {
-             color: rgb(109, 109, 109);
+    }
+
+    #products .details h5 {
+        color: rgb(109, 109, 109);
         margin-top: 20px;
         margin-bottom: 8px;
     }
-        #products .details h3{
-       color: rgb(101, 101, 101);
+
+    #products .details h3 {
+        color: rgb(101, 101, 101);
     }
 }

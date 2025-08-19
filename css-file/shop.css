@@ -1,4 +1,4 @@
-#hero{
+#hero {
     display: flex;
     margin: 0;
     background-image: url(/images/shop-page2.jpg);
@@ -9,34 +9,41 @@
     justify-content: center;
     align-items: center;
 }
-#top-items{
+
+#top-items {
     margin-bottom: 22px;
 }
-#top-items .products{
+
+#top-items .products {
     margin-bottom: 0;
 }
-#hero .container{
+
+#hero .container {
     text-align: center;
 }
-#hero .container h2{
+
+#hero .container h2 {
     color: rgb(247, 224, 224);
     margin: 10px 0;
     font-size: 30px;
     font-weight: 600;
 }
-#hero .container h5{
-        margin: 15px 0;
+
+#hero .container h5 {
+    margin: 15px 0;
     color: rgb(237, 237, 237);
     font-size: 16px;
 }
-#page-change{
+
+#page-change {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100vw;
     margin-bottom: 20px;
 }
-#page-change a{
+
+#page-change a {
     text-decoration: none;
     font-size: 20px;
     font-weight: 600;
@@ -47,6 +54,7 @@
     margin: 0 3px;
 
 }
-#page-change a:hover{
+
+#page-change a:hover {
     box-shadow: 2px 2px 5px black;
 }
