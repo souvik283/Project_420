@@ -1,0 +1,11 @@
+#hero {
+    background-image: url("/images/about_page.jpg");
+}
+
+#hero .container h2 {
+    color: black;
+}
+
+#hero .container h5 {
+    color: rgb(56, 56, 56);
+}

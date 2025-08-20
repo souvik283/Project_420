@@ -1,7 +1,7 @@
 #hero {
     display: flex;
     margin: 0;
-    background-image: url(/images/shop-page2.jpg);
+    background-image: url(/images/shop-page.jpg);
     background-size: cover;
     height: 32vh;
     width: 100%;
