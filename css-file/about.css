@@ -9,3 +9,61 @@
 #hero .container h5 {
     color: rgb(56, 56, 56);
 }
+
+#about-mid {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 30px 0;
+}
+#about-mid .img-container{
+    width: 50vw;
+}
+#about-mid .img-container img {
+    width: 40vw;
+    margin-left: 5vw;
+}
+
+#about-mid .details {
+    width: 42vw;
+}
+#about-mid .details h2{
+    font-size: xx-large;
+    font-weight: 700;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+#about-mid .details p{
+    font-size: 15px;
+    color: rgb(143, 143, 143);
+}
+#about-mid .details abbr{
+    font-size: 15px;
+    color: rgb(106, 106, 106);
+}
+#about-mid .details marquee{
+    margin-top: 15px;
+    color: rgb(63, 63, 63);
+}
+#video{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    margin-bottom: 40px;
+}
+#video h2{
+    font-size: xx-large;
+    font-weight: 700;
+}
+#video .container{
+    width: 35vw;
+    background-color: rgb(136, 136, 136);
+    text-align: center;
+    border-radius: 16px;
+}
+#video .container video{
+    width: 17vw;
+    border-radius: 10px;
+    margin: 25px 0;
+}
