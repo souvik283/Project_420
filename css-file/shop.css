@@ -58,3 +58,9 @@
 #page-change a:hover {
     box-shadow: 2px 2px 5px black;
 }
+
+@media (max-width:499px) {
+    #hero {
+        height: 21vh;
+    }
+}
