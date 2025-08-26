@@ -4,6 +4,7 @@
     flex-wrap: wrap;
     justify-content: space-around;
     margin: 20px 0;
+    align-items: center;
 }
 
 #contact-mid .details {
@@ -56,4 +57,33 @@
 #contact-mid .map iframe {
     height: 100%;
     width: 100%;
+}
+
+#contact-part2{
+    display: flex;
+    flex-wrap: wrap;
+}
+#contact-part2 .from{
+    display: flex;
+    flex-direction: column;
+    width: 45vw;
+}
+#contact-part2 .from input{
+    margin: 12px 0;
+}
+#contact-part2 .from button{
+    width: max-content;
+    height: max-content;
+    text-align: center;
+}
+#contact-part2 .profiles{
+    width: 50vw;
+}
+#contact-part2 .profiles img{
+    height: 60px;
+    width: 60px;
+    border-radius: 39px;
+}
+#contact-part2 .profiles .indvidual{
+    display: flex;
 }
