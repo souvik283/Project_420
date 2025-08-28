@@ -1,40 +1,133 @@
-#cart-list{
+#cart-list {
     margin: 30px 0;
 }
-#cart-list table{
+
+#cart-list table {
     width: 100%;
     border-collapse: collapse;
     table-layout: fixed;
     white-space: nowrap;
 }
 
-#cart-list thead{
-    border:1px solid rgb(97, 96, 96);
+#cart-list thead {
+    border: 1px solid rgb(97, 96, 96);
     border-left: none;
     border-right: none;
 }
 
-#cart-list thead tr td{
+#cart-list thead tr td {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: larger;
     font-weight: bold;
     text-align: center;
     padding: 15px 0;
 }
-#cart-list tbody tr td{
+
+#cart-list tbody tr td {
     padding-top: 12px;
     text-align: center;
     font-size: large;
 }
-#cart-list tbody tr td i{
+
+#cart-list tbody tr td i {
     cursor: pointer;
 }
-#cart-list tbody tr td input{
+
+#cart-list tbody tr td input {
     width: 27px;
     text-align: center;
     font-size: 20px;
     padding: 2px 10px;
 }
-#cart-list img{
+
+#cart-list img {
     height: 65px;
+}
+
+#cart-add {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+#cart-add .coupon {
+    width: 34vw;
+}
+
+#cart-add .coupon h3 {
+    font-size: 26px;
+}
+
+#cart-add .coupon input {
+    font-size: 17px;
+    height: 29px;
+    margin-right: 10px;
+    width: 24vw;
+}
+
+#cart-add .coupon h3 {
+    margin: 15px 0;
+}
+
+#cart-add .coupon button {
+    height: 33px;
+    font-size: 17px;
+    padding: 0 10px;
+    cursor: pointer;
+    color: aliceblue;
+    background-color: #088178;
+    border: none;
+}
+#cart-add .coupon button:hover{
+    box-shadow: 1px 2px 6px black;
+}
+
+#cart-add .total {
+    width: 35vw;
+    box-shadow: 1px 2px 7px rgb(77, 77, 77);
+
+}
+
+#cart-add .total div {
+    justify-self: center;
+    width: 30vw;
+}
+
+#cart-add .total table {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+    white-space: nowrap;
+}
+
+#cart-add .total table td {
+    border: 1px solid rgb(145, 144, 144);
+    padding: 7px 8px;
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#cart-add .total table tr:nth-child(3) {
+    font-weight: 600;
+}
+
+#cart-add .total h3 {
+    font-size: 25px;
+    margin: 19px 0;
+}
+
+#cart-add .total button {
+    margin: 20px 0;
+    font-size: 21px;
+    padding: 3px 9px;
+    border-radius: 4px;
+    border: none;
+    color: rgb(242, 241, 241);
+    background-color: #088178;
+    cursor: pointer;
+}
+
+#cart-add .total button:hover {
+    box-shadow: 1px 2px 7px black;
 }
