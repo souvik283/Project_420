@@ -1,4 +1,40 @@
-#cart-list img{
-    height: 30px;
+#cart-list{
+    margin: 30px 0;
+}
+#cart-list table{
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+    white-space: nowrap;
+}
 
+#cart-list thead{
+    border:1px solid rgb(97, 96, 96);
+    border-left: none;
+    border-right: none;
+}
+
+#cart-list thead tr td{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: larger;
+    font-weight: bold;
+    text-align: center;
+    padding: 15px 0;
+}
+#cart-list tbody tr td{
+    padding-top: 12px;
+    text-align: center;
+    font-size: large;
+}
+#cart-list tbody tr td i{
+    cursor: pointer;
+}
+#cart-list tbody tr td input{
+    width: 27px;
+    text-align: center;
+    font-size: 20px;
+    padding: 2px 10px;
+}
+#cart-list img{
+    height: 65px;
 }
