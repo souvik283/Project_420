@@ -11,9 +11,9 @@ body {
     align-items: center;
     justify-content: space-between;
     background: #E3E6F3;
-    padding: 0;
+    padding: 4px 0;
     padding-left: 30px;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.09);
+    box-shadow: 1px 3px 9px rgba(0, 0, 0, 0.5);
     z-index: 1;
 }
 
@@ -39,14 +39,13 @@ body {
 
 #navbar li {
     list-style: none;
-    padding: 0 16px;
-
+    padding: 0 18px;
 }
 
 #navbar li a {
     text-decoration: none;
     font-family: -apple-system, BlinkMacSystemFont, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 17px;
+    font-size: 21px;
     font-weight: 500;
     color: #1e1e1e;
     transition: 0.3s ease;
@@ -77,9 +76,9 @@ body {
 }
 
 #logo {
-    height: 40px;
+    height: 50px;
     border-radius: 300px;
-    width: 40px;
+    width: 50px;
 }
 
 #footer-section {
@@ -115,6 +114,7 @@ body {
 #footer-section .footer-last p {
     color: #393939;
     margin-bottom: 5px;
+    font-size: 23px;
     font-weight: 600;
 }
 
@@ -125,12 +125,14 @@ body {
 #footer-section .col h3 {
     color: #141414;
     font-weight: bold;
+    font-size: 24px;
     font-family: 'Times New Roman', Times, serif;
 }
 
 #footer-section .col p,
 #footer-section .col a {
     color: #393939;
+    font-size: 22px;
     font-weight: 540;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
