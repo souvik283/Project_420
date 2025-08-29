@@ -1,5 +1,6 @@
 #cart-list {
     margin: 30px 0;
+    overflow-x: auto;
 }
 
 #cart-list table {
@@ -52,7 +53,7 @@
 }
 
 #cart-add .coupon {
-    width: 34vw;
+    width: 39vw;
 }
 
 #cart-add .coupon h3 {
@@ -130,4 +131,50 @@
 
 #cart-add .total button:hover {
     box-shadow: 1px 2px 7px black;
+}
+
+@media (max-width: 799px){
+
+#cart-add .total {
+    width: 41vw;
+}
+#cart-add .total div {
+    justify-self: center;
+    width: 33vw;
+}
+}
+
+@media (max-width: 499px){
+    #cart-list thead tr td {
+    padding: 15px;
+    margin: 0 12px;
+}
+
+#cart-list tbody tr td {
+    margin: 0 12px;
+    padding-top: 12px;
+    text-align: center;
+    font-size: large;
+}
+    #cart-add {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    }
+    #cart-add .coupon {
+    width: 80vw;
+    margin-bottom: 30px;
+}
+#cart-add .coupon input {
+    width: 55vw;
+}
+#cart-add .total {
+    width: 80vw;
+}
+#cart-add .total div {
+    justify-self: center;
+    width: 66vw;
+}
 }
