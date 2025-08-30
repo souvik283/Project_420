@@ -11,7 +11,6 @@ let total_para= cart_total[0].firstElementChild.firstElementChild.nextElementSib
 let amount = 0, shipping_amount, grand_total;
 
 function amount_setting() {
-
     amount=0
     for (let i = 0; i < individual_amount.length; i++) {
         amount += (individual_amount[i].innerHTML * quantity[i].value)
@@ -22,7 +21,7 @@ function amount_setting() {
     if (amount < 700) {
     total_para.innerHTML=`* Add $${700-amount} more for free shipping`
         shipping_amount = 49;
-        shipping_fee.innerHTML = `$${shipping_amount}`
+        shipping_fee.innerHTML = `+ $${shipping_amount}`
     } else {
         shipping_amount = 0;
         total_para.innerHTML=''
@@ -34,6 +33,6 @@ function amount_setting() {
 }
 amount_setting()
 
-table1.addEventListener("click", ()=>{
+document.body.addEventListener("click", ()=>{
     amount_setting()
 })

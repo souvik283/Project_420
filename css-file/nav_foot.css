@@ -25,6 +25,7 @@ body {
 }
 
 #header #mobile i {
+    margin-top: 8px;
     margin-left: 15px;
     margin-right: 5px;
     cursor: pointer;
@@ -220,6 +221,26 @@ body {
 }
 
 @media (max-width:499px) {
+    #header {
+        padding: 0;
+    }
+
+    #navbar {
+        padding-top: 15px;
+        top: 44.1px;
+    }
+
+    #header #mobile i {
+        margin-top: 0;
+
+    }
+
+    #logo {
+        height: 40px;
+        border-radius: 300px;
+        width: 40px;
+    }
+
     #footer-section #column1 {
         margin-left: 4vw;
     }
@@ -232,5 +253,23 @@ body {
     #footer-section #column3,
     #footer-section #column4 {
         margin-top: 0;
+    }
+
+    #footer-section .col h3 {
+        font-size: 22px;
+    }
+
+    #footer-section .col p,
+    #footer-section .col a {
+        font-size: 20px;
+    }
+    #footer-section .footer-last p {
+    font-size: 16px;
+}
+
+    #footer-section .footer-content {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
     }
 }
