@@ -119,8 +119,12 @@
     margin: 19px 0;
 }
 
+#cart-add .total p{
+    font-size: 15px;
+    color: #f46754;
+}
 #cart-add .total button {
-    margin: 20px 0;
+    margin-bottom: 23px;
     font-size: 21px;
     padding: 3px 9px;
     border-radius: 4px;

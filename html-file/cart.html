@@ -43,7 +43,7 @@
     </section>
 
     <section id="cart-list">
-        <table width="100%">
+        <table id="table1" width="100%">
             <thead>
                 <tr>
                     <th>REMOVE</th>
@@ -59,7 +59,7 @@
                     <td><i class="fa-regular fa-circle-xmark"></i></td>
                     <td> <img src="/images/shirt1.jpeg" alt=""></td>
                     <td>Half Sleve T-Shirt</td>
-                    <td class="amount">270</td>
+                    <td class="amount">100</td>
                     <td><input class="quantity" value="1" type="number" min="1"></td>
                     <td class="subtotal">$440</td>
                 </tr>
@@ -67,7 +67,7 @@
                     <td><i class="fa-regular fa-circle-xmark"></i></td>
                     <td> <img src="/images/shirt3.jpeg" alt=""></td>
                     <td>Half Sleve T-Shirt</td>
-                    <td class="amount">120</td>
+                    <td class="amount">200</td>
                     <td><input class="quantity" value="1" type="number" min="1"></td>
                     <td class="subtotal">$440</td>
                 </tr>
@@ -75,7 +75,7 @@
                     <td><i class="fa-regular fa-circle-xmark"></i></td>
                     <td> <img src="/images/shirt4.jpeg" alt=""></td>
                     <td>Half Sleve T-Shirt</td>
-                    <td class="amount">670</td>
+                    <td class="amount">100</td>
                     <td><input class="quantity" value="1" type="number" min="1"></td>
                     <td class="subtotal">$440</td>
                 </tr>
@@ -97,19 +97,20 @@
             <table>
                 <tbody>
                     <tr>
-                        <td>Cart Subtotal</td>
-                        <td>$298</td>
+                        <td >Cart Subtotal</td>
+                        <td id="cart_subtotal">$298</td>
                     </tr>
                     <tr>
                         <td>Shipping</td>
-                        <td>Free</td>
+                        <td id="shipping_fee">Free</td>
                     </tr>
                     <tr>
                         <td>Total</td>
-                        <td>$298</td>
+                        <td id="grand_total">$298</td>
                     </tr>
                 </tbody>
             </table>
+            <p></p>
             <button id="proceed">Proceed to checkout</button>
         </div>
         </div> 
