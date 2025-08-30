@@ -6,8 +6,7 @@
 #cart-list table {
     width: 100%;
     border-collapse: collapse;
-    table-layout: fixed;
-    white-space: nowrap;
+    white-space: nowrap; 
 }
 
 #cart-list thead {
@@ -16,18 +15,20 @@
     border-right: none;
 }
 
-#cart-list thead tr td {
+#cart-list thead tr th {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: larger;
     font-weight: bold;
     text-align: center;
-    padding: 15px 0;
+    padding: 10px;
+    word-wrap: break-word;
 }
 
 #cart-list tbody tr td {
-    padding-top: 12px;
+    padding: 10px;
     text-align: center;
     font-size: large;
+    word-wrap: break-word;
 }
 
 #cart-list tbody tr td i {
