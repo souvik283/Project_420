@@ -11,10 +11,12 @@
 }
 
 #middle h3 {
+    font-size: 27px;
     color: bisque;
 }
 
 #middle h2 {
+    font-size: 32px;
     color: rgb(241, 229, 120);
 }
 
@@ -27,7 +29,7 @@
 
 #middle p {
     margin-bottom: 37px;
-    font-size: 19px;
+    font-size: 22px;
     font-weight: 500;
     color: #b70774;
 }
@@ -125,9 +127,9 @@
     background-color: #eff0f0;
     justify-content: center;
     align-items: center;
-    margin: 20px 0px;
+    margin: 20px 5px;
     border-radius: 14px;
-    padding: 12px 0;
+    padding: 15px 2px;
     cursor: pointer;
     border: 1px solid #cfcfcf;
     box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.1);
@@ -212,7 +214,7 @@
 #service {
     background-image: url(/images/service.png);
     background-size: cover;
-    height: 190px;
+    height: 220px;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -228,13 +230,14 @@
 #service p {
     margin: 12px 0;
     color: #cbcaca;
+    font-size: 23px;
     font-weight: 400;
 }
 
 #service h4 {
-    font-size: 25px;
+    font-size: 30px;
     font-weight: 700;
-    margin: 15px 0;
+    margin: 22px 0;
 
 }
 
@@ -245,11 +248,11 @@
 #service button {
     margin: 5px 0;
     color: #080808;
-    font-size: 15px;
+    font-size: 19px;
     font-weight: 700;
     border: 1px solid #cfcfcf;
     border-radius: 6px;
-    padding: 8px 19px;
+    padding: 8px 22px;
     cursor: pointer;
     box-shadow: 8px 8px 16px rgba(230, 227, 227, 0.1);
     transition: 0.3s ease;
@@ -514,7 +517,7 @@
     }
 
     #service {
-        height: 150px;
+        height: 180px;
     }
 
     #service h4 {
@@ -637,6 +640,21 @@
         align-items: center;
     }
 
+    #middle h3 {
+        font-size: 23px;
+        color: bisque;
+    }
+
+    #middle h2 {
+        font-size: 25px;
+        color: rgb(241, 229, 120);
+    }
+
+
+    #middle p {
+        font-size: 18px;
+    }
+
     #top-items,
     #new-arrivals .new-items-container {
         justify-content: space-around;
@@ -658,6 +676,10 @@
     #new-arrivals .products img {
         height: 45vw;
         width: 35vw;
+    }
+
+       #service h4 {
+        margin: 18px 0;
     }
 
     #deals .buy-get,
