@@ -120,6 +120,7 @@
 }
 
 #cart-add .total p{
+    line-height: 20px;
     font-size: 15px;
     color: #f46754;
 }

@@ -106,7 +106,9 @@
 #new-arrivals .new-items-container {
     display: flex;
     flex-wrap: wrap;
+    justify-self: center;
     text-align: center;
+    width: 96vw;
     justify-content: space-around;
     margin: 0 5px;
     margin-bottom: 30px;
@@ -295,7 +297,7 @@
 }
 
 #deals .box-container {
-    width: 88vw;
+    width: 86vw;
     display: flex;
     flex-wrap: wrap;
 }
@@ -310,10 +312,10 @@
 
 #deals .buy-get,
 #deals .upcomming {
-    height: 230px;
+    height: 300px;
     margin: 20px 0px;
     background-size: cover;
-    width: 33vw;
+    width: 35vw;
     align-content: center;
     padding: 0 50px;
 }
@@ -329,13 +331,14 @@
 #deals .buy-get h4,
 #deals .upcomming h4 {
     color: #363636;
+    font-size: 18px;
     margin: 17px 0;
 }
 
 #deals .buy-get h3,
 #deals .upcomming h3 {
     margin: 8px 0;
-    font-size: 29px;
+    font-size: 32px;
     font-weight: 700;
 }
 
@@ -365,7 +368,7 @@
     align-items: flex-start;
     background-size: cover;
     margin: 10px 0px;
-    height: 160px;
+    height: 200px;
     margin-bottom: 40px;
 
 }
@@ -373,34 +376,36 @@
 #deals .next h2 {
     margin: 8px 30px;
     color: #fbf9f9;
+    font-size: 28px;
     font-weight: 600;
 }
 
 #deals .next h4 {
     margin: 8px 30px;
+    font-size: 18px;
     color: rgb(102, 251, 231);
 }
 
 #deals .bar1 {
     background-image: url(/images/sh3.jpeg);
-    width: 28vw;
+    width: 27vw;
 }
 
 #deals .bar2 {
-    width: 31vw;
+    width: 30vw;
     background-image: url(/images/sh4.jpeg);
 }
 
 #deals .bar3 {
     background-image: url(/images/sh5.jpeg);
-    width: 26vw;
+    width: 25vw;
 }
 
 #newsletter {
     display: flex;
     background-image: url(/images/newsletter.jpg);
     background-size: cover;
-    height: 140px;
+    height: 180px;
     align-items: center;
     position: relative;
 }
@@ -410,13 +415,13 @@
 }
 
 #newsletter .text h4 {
-    font-size: 24px;
+    font-size: 30px;
     font-weight: 700;
     margin: 10px 0;
 }
 
 #newsletter .text p {
-    font-size: 16px;
+    font-size: 19px;
     font-weight: 600;
     color: #454545;
 }
@@ -432,8 +437,8 @@
 }
 
 #newsletter .signup input {
-    height: 35px;
-    width: 300px;
+    height: 40px;
+    width: 340px;
     padding: 0 1.25em;
     border: none;
     border-radius: 4px;
@@ -727,4 +732,15 @@
         align-items: center;
         flex-direction: column;
     }
+    #newsletter .text h4 {
+    font-size: 28px;
+    font-weight: 700;
+    margin: 10px 0;
+}
+
+#newsletter .text p {
+    font-size: 13px;
+    font-weight: 600;
+    color: #454545;
+}
 }
